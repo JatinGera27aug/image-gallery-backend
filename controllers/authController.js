@@ -5,7 +5,7 @@ const bcrypt = require("bcrypt");
 class AuthController {
   // **User Registration**
   static userRegistration = async (req, res) => {
-    console.log("Registration request received:", req.body);
+    // console.log("Registration request received:", req.body);
     const { username, email, password } = req.body;
 
     try {
@@ -40,7 +40,7 @@ class AuthController {
 
   // **User Login**
   static userLogin = async (req, res) => {
-    console.log("Login request received:", req.body);
+    // console.log("Login request received:", req.body);
     const { email, password } = req.body;
 
     try {

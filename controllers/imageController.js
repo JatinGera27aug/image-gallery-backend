@@ -37,7 +37,7 @@ class ImageController{
     }
     
     static async getImagebyCategory(req, res){
-        console.log(req.params)
+        // console.log(req.params)
         const {category} = req.params;
         try{
             if(category){
